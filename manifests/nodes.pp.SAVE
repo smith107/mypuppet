@@ -1,0 +1,9 @@
+node 'smith-dell-laptop' {
+
+	include puppet
+
+	file { '/tmp/hello':
+		content => "Hello, world\n",
+	}
+}
+
